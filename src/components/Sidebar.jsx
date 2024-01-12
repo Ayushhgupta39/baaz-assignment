@@ -4,7 +4,7 @@ import SidebarSectionCard from "./sidebar/StudentSectionCard";
 
 function Sidebar() {
   return (
-    <div className="flex flex-col p-2 border border-gray-400 rounded-xl gap-4 m-2">
+    <div className="flex flex-col p-2 border border-gray-300 rounded-xl gap-4 m-2">
       <div className="my-4 mx-2">
         <h2 className="text-3xl text-custom_blue font-bold">Course app</h2>
       </div>

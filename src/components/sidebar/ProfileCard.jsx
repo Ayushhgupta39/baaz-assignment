@@ -5,7 +5,7 @@ function ProfileCard() {
     <div className="flex items-center gap-4 bg-[#C7C7C740] cursor-pointer rounded-lg p-2 shadow-md border">
       <div>
         <Avatar src="/images/profile-1.png">
-          <AvatarBadge boxSize="1.25em" bg="green.400" />
+          <AvatarBadge boxSize="1em" bg="green.400" />
         </Avatar>
       </div>
       <div className="flex justify-center flex-col text-sm font-medium gap-1">
