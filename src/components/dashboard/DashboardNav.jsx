@@ -22,7 +22,7 @@ function DashboardNav() {
         </div>
       </div>
       <div className="m-2">
-        <Avatar src={"images/profile-1.png"} />
+        <Avatar size={"sm"} src={"images/profile-1.png"} />
       </div>
     </div>
   );

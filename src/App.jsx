@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="flex min-h-screen font-roboto">
+    <div className="flex min-h-screen font-poppins">
       <div className="w-1/5">
         <Sidebar />
       </div>
