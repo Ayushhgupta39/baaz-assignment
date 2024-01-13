@@ -4,8 +4,8 @@ import FormSelect from "./FormSelect";
 
 function BatchForm() {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col gap-y-3">
+    <div className="VStack_container">
+      <div className="VStack_container batchFrom_container">
         <FormInput
           label={"Batch Name"}
           placeholder={"nagulpranav2107@gmail.com"}
@@ -76,7 +76,7 @@ function BatchForm() {
         />
       </div>
 
-      <div className="flex my-6 m-2">
+      <div className="button_container">
         <Button>Next</Button>
       </div>
     </div>

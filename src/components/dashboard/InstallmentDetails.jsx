@@ -9,7 +9,7 @@ function InstallmentDetails() {
         <InstallmentTable />
 
         <div className="flex flex-col my-4">
-          <Button className="w-1/2">Add Installment Details</Button>
+          <Button style={{ width: "50%" }}>Add Installment Details</Button>
           <small className="text-[#808080]">To Installment Details</small>
         </div>
 
