@@ -7,29 +7,29 @@ function InstallmentTable() {
 
       <div className="my-1">
         <div className="relative overflow-x-auto">
-          <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+          <table className="w-full border-separate text-sm text-left rtl:text-right text-gray-500">
             <thead className="text-[10px] text-white">
-              <tr>
-                <th scope="col" className="rounded-md font-normal bg-[#808080] p-1">
+              <tr className="w-full">
+                <th className="rounded-[3px] font-normal bg-[#808080] p-[2px]">
                   Installment No.
                 </th>
-                <th scope="col" className="rounded-md font-normal bg-[#808080] p-1">
+                <th className="rounded-[3px] font-normal bg-[#808080] p-[2px]">
                   Primary Installment Amount
                 </th>
-                <th scope="col" className="rounded-md font-normal bg-[#808080] p-1">
+                <th className="rounded-[3px] font-normal bg-[#808080] p-[2px]">
                   Secondary Installment Amount
                 </th>
-                <th scope="col" className="rounded-md font-normal bg-[#808080] p-1">
+                <th className="rounded-[3px] font-normal bg-[#808080] p-[2px]">
                   Due Date
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr className="bg-[#ECF1F4] rounded-md my-1">
-                <td className="p-1">1</td>
-                <td className="p-1"></td>
-                <td className="p-1"></td>
-                <td className="p-1"></td>
+                <td className="p-1 rounded-[3px]">1</td>
+                <td className="p-1 rounded-[3px]"></td>
+                <td className="p-1 rounded-[3px]"></td>
+                <td className="p-1 rounded-[3px]"></td>
               </tr>
             </tbody>
             <tfoot>
